@@ -23,14 +23,14 @@ void loop(){
    tensao = (valorBruto / 1023.0) * 5000;           // le o valor de entrada da porta A0
    corrente = ((tensao - offsetSensor) / mV);       //converte esse valor para mV e faz a leitura de corrente
    
-   digitalWrite (7, HIGH);
-   
-   Serial.print("Raw Value = " ); 
+   digitalWrite (7, HIGH);                          //caso queira usar o proprio pino 7 do uc
+                                                    //como circuito de potencia
+   Serial.print("Valor Bruto = " ); 
    Serial.print(valorBruto); 
-   Serial.print("\t mV = "); 
+   Serial.print("\t Tensao em [mV] = "); 
    Serial.print(tensao, 3);
-   Serial.print("\t Amps = "); 
+   Serial.print("\t Corrente em [A] = "); 
    Serial.println(corrente, 3);
-   delay(2500); 
+   delay(2000); 
  
 }
