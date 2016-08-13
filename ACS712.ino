@@ -1,11 +1,12 @@
+//*******************            Medicao de corrente eletrica com sensor ACS 712       **********//
+//*******************               Codigo desenvolvido por Guilherme Hollweg          **********//
+//*******************                        Ultima modificacao:                       **********//
+//*******************                         07/2015    21:30h                        **********//
+//*******************                 Disponível em github.com/Hollweg                 **********//
+//***********************************************************************************************//
+//***********************************************************************************************//
 
-/*
-Medicao de Corrente com ACS 712
-por Guilherme Hollweg - 28-07-2015
-disponível em github.com/Hollweg
-*/
-
-short int mV = 185;                                      // use 100 for 20A Module and 66 for 30A Module
+short int mV = 185;                                      
 short int valorBruto= 0;
 short int offsetSensor = 2500; 
 double tensao = 0, corrente = 0;
