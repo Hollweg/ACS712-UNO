@@ -1,13 +1,33 @@
-# ACS712
-Software de leitura do sensor de corrente ACS712.
-O código foi desenvolvido utilizando um microcontrolador ATMEGA328, da ATMEL, e interface Arduino. </br>
-O mesmo código foi rodado para outros microcontroladores com a IDE do Arduino, e funcionaram perfeitamente. </br> </br>
-O módulo com o sensor ACS712 pode ser encontrado facilmente no Aliexpress, Dealextreme, etc.. E tem um custo em torno de R$6.00, vide link abaixo:
+# ACS712 ATMEGA328
 
-http://www.aliexpress.com/item/Free-Shipping-Hot-Sale-ACS712-30A-Range-Hall-Current-Sensor-Module-ACS712-Module-For-Arduino-30A/32515954572.html?spm=2114.01010208.3.1.08xBn5&ws_ab_test=searchweb201556_7,searchweb201602_1_10057_10056_10055_10049_10059_10058_10017_106_105_104_10060_103_10061_102_10062_10064,searchweb201603_4&btsid=0d10587c-8a4f-407f-b970-cc24fca091df
+## A proposta
+Software de exemplo de leitura do sensor de corrente ACS712 utilizando a plataforma **Arduino**.
 
-O sensor foi utilizado para o meu trabalho de conclusão de curso, o qual utilizava 2 conversores CC-CC em cascata, e um controle do tipo PID de tensão no conversor Boost e corrente no conversor BuckBoost.  </br>
-O módulo se mostrou eficiente e supriu muito bem a necessidade de monitoramento de corrente.
+## Desenvolvimento
+O código foi desenvolvido utilizando um **microcontrolador ATMEGA328**, da _ATMEL_, e interface Arduino. </br>
+O mesmo código foi testado para outros microcontroladores com a IDE do Arduino, e funcionaram perfeitamente. </br> </br>
+
+O módulo com o sensor ACS712 pode ser encontrado facilmente no Aliexpress, Dealextreme, etc.. </br>
+E tem um custo em torno de R$6.00, vide link abaixo:
+
+http://goo.gl/P9nOVP
+
+## Utilização
+O sensor foi utilizado para o meu trabalho de conclusão de curso, o qual consistia em uma EPS para picosatélites. </br>
+A EPS utilizava 2 conversores CC-CC em cascata e um controle do tipo PID em cada um dos conversores.  </br>
+O módulo se mostrou eficiente e supriu muito bem a necessidade de monitoramento de corrente. </br>
+
+O sensor deve ser alimentado em 5V, e o pino de leitura precisa ser conectado em uma porta analógica. </br>
+Tendo em vista que é um sensor de corrente, sabe-se que o mesmo deve ser ligado em série com o circuito. </br>
+A ligação em paralelo pode ocasionar um mal funcionamento dos componentes do circuito. </br>
+
+Abaixo, tem-se uma imagem do esquemático do projeto.
+
+![ACS712 Schematic](http://imgur.com/a/XYawh)
+
+##Direitos 
+É permitido utilização do projeto sem problema algum. </br>
+Entretanto, caso isso seja feito, por gentileza, **referenciar o autor**.
 
 Enjoy!
 
