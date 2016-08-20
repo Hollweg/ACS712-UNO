@@ -23,7 +23,7 @@ A ligação em paralelo pode ocasionar um mal funcionamento dos componentes do c
 
 Abaixo, tem-se uma imagem do esquemático do projeto.
 
-![ACS712 Schematic](http://imgur.com/a/XYawh)
+![ACS712 Schematic](http://i.imgur.com/khCHCk8.png)
 
 ##Direitos 
 É permitido utilização do projeto sem problema algum. </br>
