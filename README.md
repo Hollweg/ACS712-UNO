@@ -32,5 +32,5 @@ However, I only ask you to mantain original **credits/references to the author**
 
 Enjoy!
 
-Hollweg
+**Hollweg**
 
