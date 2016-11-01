@@ -1,33 +1,34 @@
 # ACS712 ATMEGA328
 
-## A proposta
-Software de exemplo de leitura do sensor de corrente ACS712 utilizando a plataforma **Arduino**.
+##The purpose
+Example software for **ACS712 sensor reading** using **Arduino platform**.
 
-## Desenvolvimento
-O código foi desenvolvido utilizando um **microcontrolador ATMEGA328**, da _ATMEL_, e interface Arduino. </br>
-O mesmo código foi testado para outros microcontroladores com a IDE do Arduino, e funcionaram perfeitamente. </br> </br>
+##Development
+The code was developed using an **ATMEGA328 microcontroller**, manufactured by _ATMEL_ using Arduino interface. </br>
+The same code was tested using different microcontrollers with Arduino IDE and it worked perfectly.
 
-O módulo com o sensor ACS712 pode ser encontrado facilmente no Aliexpress, Dealextreme, etc.. </br>
-E tem um custo em torno de R$6.00, vide link abaixo:
+The module with ACS712 sensor can be easily found in Aliexpress, Dealextre, etc.. </br>
+It has an **average cost of R$6.00**, according to the link below:
 
 http://goo.gl/P9nOVP
 
-## Utilização
-O sensor foi utilizado para o meu trabalho de conclusão de curso, o qual consistia em uma EPS para picosatélites. </br>
-A EPS utilizava 2 conversores CC-CC em cascata e um controle do tipo PID em cada um dos conversores.  </br>
-O módulo se mostrou eficiente e supriu muito bem a necessidade de monitoramento de corrente. </br>
+##Using
+The sensor was used for my **final graduation work**, that had as **main objective the modeling, control and development of a cubesat EPS.** </br>
+**The EPS had 2 DC-DC converters in cascade configuration and a PID controller in each converter.** </br>
+**The module was very efficcient** and supplied the current monitoring issue. 
 
-O sensor deve ser alimentado em 5V, e o pino de leitura precisa ser conectado em uma porta analógica. </br>
-Tendo em vista que é um sensor de corrente, sabe-se que o mesmo deve ser ligado em série com o circuito. </br>
-A ligação em paralelo pode ocasionar um mal funcionamento dos componentes do circuito. </br>
+The sensor must be powered in 5V and the read pin must be connected in an analogic port. </br>
+How ACS712 is a current sensor, we know that it **must be connected in series with the circuit.** </br>
+_Attention: The parallel connection can bring on a mal functioning on the circuit and its components._
 
-Abaixo, tem-se uma imagem do esquemático do projeto.
+Below, we have an image of the project schematic.
 
 ![ACS712 Schematic](http://i.imgur.com/khCHCk8.png)
 
-##Direitos 
-É permitido utilização do projeto sem problema algum. </br>
-Entretanto, caso isso seja feito, por gentileza, **referenciar o autor**.
+##Copyright
+The project can be reproduced with no problem. </br>
+However, I only ask you to mantain original **credits/references to the author**.
+
 
 Enjoy!
 
