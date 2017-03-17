@@ -1,10 +1,10 @@
-#ACS712 ATMEGA328
+# ACS712 ATMEGA328
 
-##The purpose
+## The purpose
 
 Example software for **ACS712 sensor reading** using **Arduino platform**.
 
-##Development
+## Development
 
 The code was developed using an **ATMEGA328 microcontroller**, manufactured by _ATMEL_ using Arduino interface. </br>
 The same code was tested using different microcontrollers with Arduino IDE and it worked perfectly.
@@ -14,7 +14,7 @@ It has an **average cost of R$6.00**, according to the link below:
 
 http://goo.gl/P9nOVP
 
-##Using
+## Using
 
 The sensor was used for my **final graduation work**, that had as **main objective the modeling, control and development of a cubesat EPS.** </br>
 **The EPS had 2 DC-DC converters in cascade configuration and a PID controller in each converter.** </br>
@@ -29,7 +29,7 @@ _Attention: The parallel connection can bring on a mal functioning on the circui
 
 ![ACS712 Schematic](http://i.imgur.com/khCHCk8.png)
 
-##Copyrights
+## Copyrights
 
 The project can be reproduced with no problem. </br>
 However, I only ask you to keep **credits/references to the author**.

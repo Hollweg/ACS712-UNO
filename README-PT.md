@@ -1,6 +1,6 @@
-#ACS712 ATMEGA328
+# ACS712 ATMEGA328
 
-##A proposta
+## A proposta
 
 Software de exemplo de leitura do sensor de corrente ACS712 utilizando a plataforma **Arduino**.
 
@@ -14,7 +14,7 @@ E tem um custo em torno de R$6.00, vide link abaixo:
 
 http://goo.gl/P9nOVP
 
-##Utilização
+## Utilização
 
 O sensor foi utilizado para o meu trabalho de conclusão de curso, o qual consistia em uma EPS para picosatélites. </br>
 A EPS utilizava 2 conversores CC-CC em cascata e um controle do tipo PID em cada um dos conversores.  </br>
@@ -28,7 +28,7 @@ A ligação em paralelo pode ocasionar um mal funcionamento dos componentes do c
 
 ![ACS712 Schematic](http://i.imgur.com/khCHCk8.png)
 
-##Direitos 
+## Direitos 
 
 É permitido utilização do projeto sem problema algum. </br>
 Entretanto, caso isso seja feito, por gentileza, **referenciar o autor**.
